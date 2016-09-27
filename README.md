@@ -6,6 +6,7 @@ This repository contains my project code and project report for the Grupo Bimbo 
 Competition Information and Data
 --------------------------------
 All information and data can be obtained from the competition web page: 
+
 https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 iPython Notebooks
