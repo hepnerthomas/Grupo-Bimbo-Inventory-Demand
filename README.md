@@ -11,10 +11,12 @@ https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 iPython Notebooks
 -----------------
 1. exploratory analysis: 
+
 * Explores product and client data.
 * Discovers new features that can be generated from NombreProducto and NombreCliente variables.
 
 2. feature engineering:
+
 * Takes the findings from the exploratory analysis and creates new product and client data sets with additional features.
 
 3. build:
