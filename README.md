@@ -11,16 +11,16 @@ https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 iPython Notebooks
 -----------------
-1. exploratory analysis: 
+__1. exploratory analysis:__
 
 	* Explores product and client data.
 	* Discovers new features that can be generated from NombreProducto 	and NombreCliente variables.
 
-2. feature engineering:
+__2. feature engineering:__
 
 	* Takes the findings from the exploratory analysis and creates new 	product and client data sets with additional features.
 
-3. build:
+__3. build:__
 
 	* Load train, test, and modified client and products data.
 	* Merges modified client and products data into train and test 	data.
@@ -30,13 +30,13 @@ iPython Notebooks
 	* Removes data before Week 6.
 	* Writes modified train and test data to CSV.
 
-4. predict: 
+__4. predict:__
 	
 	* Fits an XGBOOST model to the train data.
 	* Validate model results on a held-out subset of the train data.
 	* Generates results for the test data.
 
-5. free-form-visualization:
+__5. free-form-visualization:__
 
 	* Uses Matplotlib to plot weekly sales of the top 4 best-selling 	products in the train data. 
 
