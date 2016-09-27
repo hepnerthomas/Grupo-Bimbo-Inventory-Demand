@@ -21,21 +21,24 @@ iPython Notebooks
 	* Takes the findings from the exploratory analysis and creates new 	product and client data sets with additional features.
 
 3. build:
-* Load train, test, and modified client and products data.
-* Merges modified client and products data into train and test data.
-* Adds time series demand features.
-* Adds mean of frequencies of id features.
-* Encodes categorical variables.
-* Removes data before Week 6.
-* Writes modified train and test data to CSV.
+
+	* Load train, test, and modified client and products data.
+	* Merges modified client and products data into train and test 	data.
+	* Adds time series demand features.
+	* Adds mean of frequencies of id features.
+	* Encodes categorical variables.
+	* Removes data before Week 6.
+	* Writes modified train and test data to CSV.
 
 4. predict: 
-* Fits an XGBOOST model to the train data.
-* Validate model results on a held-out subset of the train data.
-* Generates results for the test data.
+	
+	* Fits an XGBOOST model to the train data.
+	* Validate model results on a held-out subset of the train data.
+	* Generates results for the test data.
 
 5. free-form-visualization:
-* Uses Matplotlib to plot weekly sales of the top 4 best-selling products in the train data. 
+
+	* Uses Matplotlib to plot weekly sales of the top 4 best-selling 	products in the train data. 
 
 Project Report
 --------------
